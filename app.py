@@ -203,8 +203,8 @@ async def recieve_DOC_File():
 
 
 
-@app.route("/recieve", methods=["GET"])
-async def recieve():
+@app.route("/receive", methods=["GET"])
+async def receive():
     try:
         if dt.AUDI_FILE_S2C != None:
             return  {"Message":"file001234"}
